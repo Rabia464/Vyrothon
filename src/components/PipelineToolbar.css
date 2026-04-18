@@ -1,0 +1,25 @@
+.pipelineToolbarBody {
+  padding-top: 10px;
+}
+
+.pipelineToolbarRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pipelineSelect {
+  flex: 1;
+  min-width: 0;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(11, 13, 18, 0.55);
+  color: var(--text);
+  padding: 9px 10px;
+}
+
+.pipelineToolbarHint {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}

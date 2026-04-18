@@ -1,0 +1,31 @@
+.configPanel .muted {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.cfgCipherTitle {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cfgCipherDesc {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.cfgInput {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(11, 13, 18, 0.55);
+  color: var(--text);
+  padding: 9px 10px;
+  outline: none;
+}
+
+.cfgInput:focus {
+  border-color: rgba(75, 225, 193, 0.55);
+  box-shadow: 0 0 0 3px rgba(75, 225, 193, 0.12);
+}

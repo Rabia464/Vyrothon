@@ -1,0 +1,20 @@
+.pipelineCanvasWrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+}
+
+.pipelineCanvasRf {
+  flex: 1;
+  min-height: 380px;
+  position: relative;
+}
+
+.pipelineCanvasRf .react-flow {
+  background: rgba(7, 9, 14, 0.35);
+  border-radius: 0 0 12px 12px;
+}
+
+.ncMinimap {
+  background: rgba(11, 13, 18, 0.85) !important;
+}
